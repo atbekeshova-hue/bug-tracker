@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+.form {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.list {
+    background: white;
+    margin: 20px auto;
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
