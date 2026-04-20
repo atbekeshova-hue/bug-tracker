@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Bug Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🐞 Bug Tracker</h1>
+    </header>
+
+    <main>
+
+        <section class="form">
+            <input type="text" id="bugInput" placeholder="Введите баг...">
+            <button onclick="addBug()">Добавить</button>
+        </section>
+
+        <section class="list">
+            <h2>Список багов</h2>
+            <ul id="bugList"></ul>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
