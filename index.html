@@ -13,15 +13,25 @@
 
     <main>
 
-        <section class="form">
-            <input type="text" id="bugInput" placeholder="Введите баг...">
-            <button onclick="addBug()">Добавить</button>
-        </section>
+       <section class="form">
 
-        <section class="list">
-            <h2>Список багов</h2>
-            <ul id="bugList"></ul>
-        </section>
+        <input type="text" id="bugInput" placeholder="Название бага">
+
+        <select id="priority">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+            <option value="Critical">Critical</option>
+        </select>
+
+        <button onclick="addBug()">Добавить</button>
+
+    </section>
+
+    <section class="list">
+        <h2>Список багов</h2>
+        <ul id="bugList"></ul>
+    </section>
 
     </main>
 
